@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.shopping__list{
+    min-width: 100%;
+    min-height: 100vh;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+.products__list{
+    border: 1px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.groceries__list{
+  max-height: 400px; 
+   overflow-y: auto;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+ul{
+    margin-top: 3rem;
+}
+.chlothing__list{
+    max-height: 400px; 
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+.accessories__list{
+    max-height: 400px; 
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+.medicinal__list{
+    max-height: 400px; 
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+.list__title{
+    width: 17%;
+    position: fixed;
+    z-index: 10;
+    padding:5px;
+    background-color: bisque;
+    text-align: center;
+    border: 1px solid black;
+}
+.items{
+    
+}
+.list-item{
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 80% 1fr;
+    margin-top: 1rem;
+    text-align: center;
+    border: 1px solid rgba(5, 4, 4, 0.582);
+}
+
+span{
+    border: 1px solid rgba(5, 4, 4, 0.582);
+}
+/*=============list__container===========*/
+.list__container{
+    display: grid;
+    align-items: center;
+    border: 1px solid rgb(8, 9, 10);
+}
+#selectedItems{
+    max-height: 400px; 
+    overflow-y: auto;
+    width: 50%;
+    margin-left: 10rem;
+
+}
+.slist__title{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+i{
+    font-size: 1.8rem;
+}
+#text{
+    border: 1px solid rgb(56, 206, 94); 
+}
+#selectedItems {
+    margin-top: 20px;
+}
+
+.remove-icon {
+    cursor: pointer;
+    background-color: blueviolet;
+}

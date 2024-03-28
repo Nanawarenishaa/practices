@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./list.css" class="">
+    <title>Document</title>
+</head>
+<body>
+   <!--==========================section__shopping list================--> 
+   <section class="shopping__list" id="s_list">
+    <div class="products__list">
+        <div class="groceries__list">
+         <h2 class="list__title">Grocerie list <i class="ri-bread-fill"></i></h2>
+         <ul class="items">
+            <li class="list-item" onclick="moveItem(this)">Apples <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Avocados<i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Broccoli <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Green Bean<i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Potatoes<i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Onions<i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Eggs<i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Beef <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Oats <i class="ri-add-circle-line"></i></li>
+         </ul>
+        </div>
+
+        <div class="chlothing__list">
+            <h2 class="list__title">Chlothing list <i class="ri-shirt-fill"></i></h2>
+            <ul class="items">
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+         </ul>
+        </div>
+
+        <div class="accessories__list">
+            <h2 class="list__title">Accessories list <i class="ri-handbag-fill"></i></h2>
+            <ul class="items">
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+         </ul>
+        </div>
+
+        <div class="medicinal__list">
+            <h2 class="list__title">Medicinal list <i class="ri-hospital-fill"></i></h2>
+            <ul class="items">
+                <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+                <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+                <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+                <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+                <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+                <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+                <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+            <li class="list-item" onclick="moveItem(this)">Apple <i class="ri-add-circle-line"></i></li>
+             </ul>
+        </div>
+
+    </div>
+    <div id="selectedItems">
+        <h2 class="slist__title">Selected Items</h2>
+        <ul id="selectedList">
+            <!-- Selected items will appear here -->
+        </ul>
+    </div>
+   </section>
+   <script src="./list.js"></script>
+</body>
+</html>
