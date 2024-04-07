@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Diary</title>
+    <link rel="stylesheet" href="./recipe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Recipe Diary</h1>
+        <button id="toggleDarkMode"><i class="ri-moon-line"></i></button>
+    </header>
+    <main>
+        <section id="addRecipe">
+            <h2>Add Recipe</h2>
+            <form id="recipeForm">
+                <div class="form-group" id="imageBoxContainer">
+                    <div id="imageBox">
+                        <label for="recipeImageInput" tabindex="0" aria-label="Click to add image"><i class="ri-image-add-line"></i></label>
+                        <input type="file" id="recipeImageInput" accept="image/*" aria-hidden="true">
+                        <button id="deleteImageButton" tabindex="0" aria-label="Delete Image"><i class="ri-delete-bin-line"></i></button>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="ingredients">Ingredients:</label>
+                    <textarea id="ingredients" placeholder="Enter ingredients"></textarea>
+                    <ul id="suggestions"></ul>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea id="description" placeholder="Enter recipe description"></textarea>
+                </div>
+                <button type="submit"><i class="ri-add-circle-line"></i> Add Recipe</button>
+            </form>
+        </section>
+        <section id="recipes">
+            <h2>Recipes</h2>
+            <div id="recipeList"></div>
+        </section>
+    </main>
+    <script src="./recipe.js"></script>
+</body>
+</html>
