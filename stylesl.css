@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Darker container background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.247); /* Light shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="time"], button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #333; /* Dark input background color */
+    color: #fff; /* Text color */
+}
+
+button {
+    background-color: #6ff1fa8a;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    background-color: #333; /* Dark task background color */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-item .icons {
+    display: flex;
+    align-items: center;
+}
+
+.task-item i {
+    margin-right: 5px;
+    cursor: pointer;
+    color: #aaa; /* Light icon color */
+}
