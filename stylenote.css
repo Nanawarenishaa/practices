@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.add-item-form {
+    margin-bottom: 20px;
+}
+
+.shopping-list {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.shopping-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.shopping-list li {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+

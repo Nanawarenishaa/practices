@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List App</title>
+    <link rel="stylesheet" href="./stylenote.css">
+</head>
+<body>
+
+<h1>Shopping List</h1>
+
+<div class="add-item-form">
+    <label for="category">Category:</label>
+    <select name="category" id="category">
+        <option value="Groceries">Groceries</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Clothing">Clothing</option>
+        <option value="Books">Books</option>
+        <option value="Other">Other</option>
+    </select>
+
+    <label for="item">Item:</label>
+    <input type="text" id="item">
+
+    <button onclick="addItem()">Add</button>
+</div>
+
+<div class="shopping-list">
+    <h2>Shopping list</h2>
+    <ul id="list"></ul>
+</div>
+
+<script src="./indexnote.js"></script>
+</body>
+</html>
