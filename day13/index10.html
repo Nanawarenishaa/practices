@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product List</title>
+  <link rel="stylesheet" href="style10.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <p class="navbar-item">Your Brand</p>
+      <p class="navbar-burger" onclick="toggleSidebar()">
+        <i class="ri-menu-4-line"></i>
+      </p>
+    </div>
+  </nav>
+
+  <div id="sidebar" class="sidebar">
+    <h2>My List</h2>
+    <ul id="list"></ul>
+    <div id="total"></div> <!-- Placeholder for total price -->
+    <button onclick="addAllToList()">Add All</button>
+  </div>
+  </div>
+
+  <section class="products" id="products"></section>
+</body>
+<script src="index10.js"></script>
+</html>
