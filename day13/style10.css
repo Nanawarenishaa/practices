@@ -4,7 +4,7 @@ body {
   }
   
   .navbar {
-    width: 100%;
+    width: 95%;
     background-color: #333;
     color: #fff;
     padding-left: 2rem;
@@ -48,6 +48,7 @@ body {
   }
   
   .products {
+    margin-top: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     gap: 1rem;
